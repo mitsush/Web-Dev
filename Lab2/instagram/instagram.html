@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link rel="icon" type="image/x-icon" href="Untitled.png">
+        <style>
+            body {
+                display: flex;
+                height: 56ch;
+                background-color: #fafafa;
+            }
+    
+            .image {
+                position: relative;
+                width: 400px; 
+                top: 40px;
+            }
+    
+            .img1 {
+                position: relative;
+                top: 25px;
+                left: 300px;
+                width: 115%; 
+                display: block;
+            }
+    
+            .img2 {
+                position: absolute;
+                top: 12%;
+                left: 457px;
+                width: 60%; 
+            }
+            .box {
+                background-color: #fafafa;
+                height: 400px;
+                width: 350px;
+                flex-direction: column;
+                position: relative;
+                top: 80px;
+                bottom: 0px;
+                left: 350px;
+                margin: 0;
+                padding: 0;
+                border: 0.2px solid rgb(178, 175, 175);
+                border-radius: 2px;
+                text-align: center;
+            }
+            .box input {
+                color: black;
+                font-weight: 400;
+                width: 250px;
+                margin: 5px 0px 0px 0px;
+                padding: 10px;
+                border: 1px solid #dddfe2;
+                border-radius: 0px;
+                font-size: 12px;
+            }
+            .box img {
+                width: 180px;
+                margin: 40px 0 30px 0;
+            }
+            .box button {
+                background-color: rgb(113, 178, 243);
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 600;
+                height: 33px;
+                width: 275px;
+                position: relative;
+                top: 13px;
+                border: none;
+                border-radius: 10px;
+            }
+            .box button:hover {
+                background-color: #ff96fb;
+            }
+            .box hr {
+                position: relative;
+                top: 33px;
+                width: 110px;
+                right: 80px;
+                border: none;
+                border-top: 1px solid #cfcdcd;
+            }
+            .box .hr2 {
+                position: relative;
+                top: -10px;
+                width: 110px;
+                left: 80px;
+                border: none;
+                border-top: 1px solid #cfcdcd;
+            }
+            .box .or {
+                color: #6e6e6e;
+                font-size: 13px;
+                font-weight: 550;
+                font-family: Arial, sans-serif;
+                position: relative;
+                top: 10px;
+            }
+            .box .fb {
+                font-family: Arial, sans-serif;
+                color: #338bff;
+                font-size: 14px;
+                font-weight: 600;
+                position: relative;
+                top: 16px;
+                text-decoration: none;
+            }
+            .box .fb:hover {
+                color: #65bef9;
+            }
+            .box .password {
+                position: relative;
+                top: 22px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+            }
+            .password a {
+                text-decoration: none;
+                color: black;
+            }
+            .password a:hover {
+                text-decoration: underline;
+            }
+            .box2 {
+                position: relative;
+                top: 490px;
+                left: 1px;
+                height: 60px;
+                width: 350px;
+                border: none;
+                border: 1px solid rgb(214, 213, 213);
+                font-family: Arial, sans-serif;
+                text-align: center;
+                font-size: 14px;
+            }
+            .box2 .text2 {
+                position: relative;
+                top: 7px;
+            }
+            .box2 a {
+                color: #338bff;
+                text-decoration: none;
+            }
+            .box2 a:hover {
+                color: #65bef9;
+            }
+            .gettheup {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                width: 80px;
+                position: relative;
+                top: 550px;
+                right: 210px;
+            }
+            .app {
+                display: flex;
+                flex-direction: row;
+            }
+            .ios {
+                height: 40px;
+                width: 140px;
+                position: relative;
+                top: 590px;
+                right: 390px;
+            }
+            .android {
+                height: 40px;
+                width: 140px;
+                position: relative;
+                top: 590px;
+                right: 395px;
+            }
+            footer {
+                background-color: #ffffff;
+                text-align: center;
+                padding: 20px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #8e8e8e;
+            }
+
+            footer a {
+                color: #0095f6;
+                text-decoration: none;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image">
+            <img class="img1" src="home-phones-2x.png" alt="Phone Frame"> <!-- Телефон -->
+            <img class="img2" src="screenshot1-2x.png" alt="Screen Content"> <!-- Экран -->
+        </div>
+        <div class="box">
+            <form>
+                <img src="6411e82f49c1a.png" alt=""><br>
+                <input type="text" placeholder="Phone mumber, username or email adress"><br>
+                <input type="password" placeholder="Password"><br>
+                <button>Log in</button>
+                <hr><p class="or">OR</p><hr class="hr2">
+                <a class="fb" href="#facebook">Log in with Facebook</a>
+                <p class="password"><a href="#pass">Forgotten your password?</a></p>
+            </form>
+        </div>
+        <div class="box2">
+            <p class="text2">Don't have an account? <a href="#sign"><strong>Sign up</strong></a></p>
+        </div>
+        <p class="gettheup">Get the app.</p>
+        <div class="app">
+        <img class="android" src="c5Rp7Ym-Klz.png">
+        <img class="ios" src="Yfc020c87j0.png"> </div>
+    </body>
+</html>

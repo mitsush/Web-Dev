@@ -1,0 +1,74 @@
+h2 {
+    color: #000000;
+    font-size: 2.5em;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #86868658;
+    border-radius: 30px;
+}
+.a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+p {
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+    padding: 10px;
+    color: #000000;
+}
+ul {
+    margin: 50px;
+    padding: 10px;
+    color: #000000;
+    font-size: 1.5em;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    background-color: #86868658;
+    width: 70px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+a:hover {
+    transform: scale(1.05);
+}
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+label { 
+    color: #000000;
+    font-size: 1.5em;
+    margin: 20px;
+    font-weight: 800;
+}
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    border: #000000 solid 2px;
+}

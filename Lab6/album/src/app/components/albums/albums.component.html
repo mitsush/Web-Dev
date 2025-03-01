@@ -1,0 +1,12 @@
+<h1>MY ALBUMS PAGE  <button (click)=goBack() class="back">Back</button> </h1>
+  <div class="container">
+    <div *ngFor="let album of albums" (click)="viewAlbumDetails(album.id)">
+      <div class="card">
+        <h5>{{ album.title }}</h5>
+        <small>ID: {{ album.id }}</small>
+        <small>User ID: {{ album.userId }}</small>
+      <button class="btn btn-danger" (click)="deleteAlbum(album.id, $event)">Delete</button>
+      </div>
+    </div>
+  </div>
+

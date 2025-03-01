@@ -1,0 +1,22 @@
+<h1>GIFT SHOP</h1>
+<div class="product-list">
+    <div class="product-card" *ngFor="let product of products">
+      <div class="image-gallery">
+        <button class="arrow left" (click)="prevImage(product)"></button>
+        <img [src]="product.image[product.currentImageIndex]" alt="{{ product.name }}">
+        <button class="arrow right" (click)="nextImage(product)"></button>
+      </div>
+      <div class="info">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <p><strong>{{ product.price }} KZT</strong></p>
+      <p>⭐ {{ product.rating }}</p> </div>
+      <a [href]="product.link" target="_blank"><button id="b">Buy</button></a>
+      <div class="button-container">
+        <button class="share-button whatsapp" (click)="shareOnWhatsApp(product.link)">Share on WhatsApp</button>
+        <button class="share-button telegram" (click)="shareOnTelegram(product.link)">Share on Telegram</button>
+      </div>
+    </div>
+</div>
+<h5>made by <strong>nieyrinn</strong></h5>
+  

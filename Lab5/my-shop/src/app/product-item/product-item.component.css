@@ -1,0 +1,105 @@
+h2 {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(255, 192, 237, 0.617);
+    border-radius: 50px;
+    margin: 30px 20px 30px 20px;
+    color: rgba(208, 0, 163, 0.544);
+}
+.product-list {
+    font-family: Didot, serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    border: solid rgba(208, 0, 163, 0.251);
+    border-radius: 20px;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(174, 27, 169, 0.3);
+    text-align: center;
+  }
+.product-card img {
+    position: relative;
+    display: flex;
+    margin: auto;
+    border:solid rgba(174, 27, 169, 0.3);
+    padding-left: 0px;
+    margin-left: 26px;
+    width: 1700px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+button {
+    flex: 1;
+    background-color: #f0b5ff;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    
+}
+button:hover {
+    transform: scale(0.9)
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;  
+    margin-top: 10px;
+    gap: 7px; 
+    
+}
+.share-button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.whatsapp {
+    background-color: #25d365d5;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.telegram {
+    background-color: #0088ccb6;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+.img  {
+    margin-left: 200px;
+    border:solid rgba(218, 94, 160, 0.467) 5px;
+    border-radius: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    background-color: #f0b5ff6d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 40px;
+}

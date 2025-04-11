@@ -1,0 +1,77 @@
+h2{
+    height: 54px;
+    width: 100%;
+    padding: 0 12px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+    color:gray;
+    font-family:'Segoe UI', sans-serif;
+}
+.box{
+    font-family: Arial, serif;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+#input{
+    width:450px;
+    height:25px;
+}
+li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:300px;
+    height:25px;
+    padding:10px 10px 10px 45px;
+    border-radius:20px;
+    border-color: black;
+    margin:15px;
+    background-color:aliceblue;
+    cursor:pointer;
+}
+.done{
+    background-color: lightgray;
+    text-decoration: line-through;
+}
+.done::after{
+    content: '';
+    position: absolute;
+    left:10px;
+    width:25px;
+    height: 25px;
+    background-image: url("img/done.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 1px;
+    border-radius: 50%;
+}
+li i{
+    position:absolute;
+    right:-40px;
+    width: 25px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/delete.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 50%;
+}
+li::before{
+    content:'';
+    position: absolute;
+    left:8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+button{
+    background-color:aliceblue;
+    margin:2px;
+    border-radius: 30%;
+    border-color: azure;
+}
